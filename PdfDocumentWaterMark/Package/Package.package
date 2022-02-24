@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package dslVersion="1.0.0.0" 
-        Id="de283caf-90e8-4abe-8fb1-5dcd096ac5ac" 
-        solutionId="de283caf-90e8-4abe-8fb1-5dcd096ac5ac" 
-        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
-        name="PdfDocumentWaterMark"
-        sharePointProductVersion="16.0">
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="de283caf-90e8-4abe-8fb1-5dcd096ac5ac" solutionId="de283caf-90e8-4abe-8fb1-5dcd096ac5ac" resetWebServer="false" sharePointProductVersion="16.0" name="PdfDocumentWaterMark" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="2fafb9b3-1420-4c9c-8100-29b150e6e52b" />
+  </features>
 </package>

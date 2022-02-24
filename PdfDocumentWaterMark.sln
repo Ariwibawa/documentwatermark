@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfDocumentWaterMark", "PdfDocumentWaterMark\PdfDocumentWaterMark.csproj", "{569CCA9C-03F4-4CCA-B86F-9C9C6940C63C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharePoint", "SharePoint", "{D2D8E81C-E74B-4809-9844-EFE844E0DC33}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,5 +22,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{569CCA9C-03F4-4CCA-B86F-9C9C6940C63C} = {D2D8E81C-E74B-4809-9844-EFE844E0DC33}
 	EndGlobalSection
 EndGlobal
